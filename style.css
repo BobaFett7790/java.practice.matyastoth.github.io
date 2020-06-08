@@ -28,3 +28,7 @@ div {
     border: solid purple;
     background: yellow;
   }
+
+  .hidden {
+      display: none;
+  }
