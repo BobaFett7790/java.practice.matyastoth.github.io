@@ -1,6 +1,12 @@
-let age = 30
-age
+// 4th prat!
 
+$('div').text('Hello');
+
+
+
+
+
+// From 1st part to the 3rd part!
 console.log("JavaScript os working!")
 
 let myArray = ['Judit', 'Matyi',];
