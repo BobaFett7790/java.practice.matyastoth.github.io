@@ -1,12 +1,15 @@
 // 4th prat!
 
-$('div').text('Hello');
-
+$('p').css('background', 'green');
+$('.first').toggleClass('hidden');
+$('p').text('Hello');
+$('p').html('<strong>Hello</strong>');
 
 
 
 
 // From 1st part to the 3rd part!
+
 console.log("JavaScript os working!")
 
 let myArray = ['Judit', 'Matyi',];
