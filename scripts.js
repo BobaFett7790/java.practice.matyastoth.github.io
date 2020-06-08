@@ -7,9 +7,19 @@ let myArray = ['Judit', 'Matyi',];
 
 console.log(myArray[0]);
 
-let colors = ['Black', 'Red', 'Blue'];
+let colors = ['Black', 'Red', 'Blue', 'White'];
 
 console.log(colors[1])
+
+
+
+let posts = [{
+  title: "First post",
+  likeCount: 12
+}, {
+  title: "Second post",
+  likeCount: 222
+}];
 
 
 
@@ -40,3 +50,21 @@ console.log(str);
 for (let i = 0; i < 10; i++) {
   console.log(i)
 }
+
+
+console.log(colors); 
+
+let myFunction = x => {
+  console.log(x);
+} 
+
+let greeter = name => {
+  console.log(`Hello, ${name}`)
+}
+
+greeter("Judit")
+greeter("Matyi")
+
+colors.forEach(color => {
+  console.log(color);
+});
