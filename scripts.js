@@ -1,10 +1,15 @@
 // 4th prat!
 
 $('p').css('background', 'green');
-$('.first').toggleClass('hidden');
+// $('.first').toggleClass('hidden');
 $('p').text('Hello');
 $('p').html('<strong>Hello</strong>');
+// $('p').append(' Another');
+// $('div').remove();
 
+$('button').click(() => {
+  $('.first').toggleClass('hidden');
+});
 
 
 
