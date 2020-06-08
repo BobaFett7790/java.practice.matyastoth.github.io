@@ -60,6 +60,9 @@ let myFunction = x => {
 
 let greeter = name => {
   console.log(`Hello, ${name}`)
+  if (name  === "Matyi") {
+    console.log("He's an adult")
+  }
 }
 
 greeter("Judit")
