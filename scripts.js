@@ -11,11 +11,14 @@ $('button').click(() => {
   $('.first').toggleClass('hidden');
 });
 
+$('button').click(() => {
+  $('.sixth').css('background', 'blue');
+});
 
 
 // From 1st part to the 3rd part!
 
-console.log("JavaScript os working!")
+console.log("JavaScript is working!")
 
 let myArray = ['Judit', 'Matyi',];
 
