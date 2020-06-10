@@ -56,11 +56,11 @@ let add = (a, b) => {
 
 let str = '';
 
-for (let i = 0; i < 9; i++) {
+for (let i = 0; i < 10; i++) {
   str = str + i;
+  console.log(str);
 }
 
-console.log(str);
 
 
 
